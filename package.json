@@ -1,0 +1,20 @@
+{
+  "name": "prettier-yaml-sort",
+  "version": "0.0.0",
+  "description": "A Prettier plugin for alphabetically sorting YAML keys",
+  "type": "module",
+  "main": "dist/bundle.cjs",
+  "module": "dist/bundle.js",
+  "author": "Dfdez",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "prettier": "^3.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0",
+    "rollup": "^4.4.1"
+  }
+}
